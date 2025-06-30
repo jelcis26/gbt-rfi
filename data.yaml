@@ -1,0 +1,5 @@
+train: /datax/scratch/jliang/masking_dataset/train
+val: /datax/scratch/jliang/masking_dataset/val
+
+nc: 1
+names: ['hit']
