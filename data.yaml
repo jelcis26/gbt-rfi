@@ -1,5 +1,5 @@
-train: /datax/scratch/jliang/masking_dataset/train
-val: /datax/scratch/jliang/masking_dataset/val
+train: /datax/scratch/jliang/channel_visualizing_dataset_threshold5_no_overlap_3030/train
+val: /datax/scratch/jliang/channel_visualizing_dataset_threshold5_no_overlap_3030/val
 
 nc: 1
 names: ['hit']
