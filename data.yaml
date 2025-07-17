@@ -1,5 +1,5 @@
-train: /datax/scratch/jliang/channel_visualizing_dataset_threshold5_no_overlap_3030/train
-val: /datax/scratch/jliang/channel_visualizing_dataset_threshold5_no_overlap_3030/val
+train: /datax/scratch/jliang/dataset_moe_gate-0.04-new-weights/train
+val: /datax/scratch/jliang/dataset_moe_gate-0.04-new-weights/val
 
 nc: 1
 names: ['hit']
