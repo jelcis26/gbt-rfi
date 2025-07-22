@@ -1,5 +1,5 @@
-train: /datax/scratch/jliang/dataset_moe_gate-0.04-new-weights/train
-val: /datax/scratch/jliang/dataset_moe_gate-0.04-new-weights/val
+train: /datax/scratch/jliang/augmented/train
+val: /datax/scratch/jliang/augmented/val
 
 nc: 1
 names: ['hit']
