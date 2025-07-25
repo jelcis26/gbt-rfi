@@ -20,9 +20,9 @@ model = YOLO("yolo11n.pt")
 overrides = {
     "data": "/home/jliang/gbt-rfi/data.yaml",
     "epochs": 100,
-    "batch": 16,
+    "batch": 32,
     "workers": 2,
-    "lr0": 0.005,
+    "lr0": 0.001,
     "warmup_epochs": 5.0,
     "cls": 0.3,
     "dfl": 0.3,
@@ -30,10 +30,10 @@ overrides = {
     "mosaic": False,
     "rect": True,
     "fliplr": 0.0,
-    "patience": 10,
+    "patience": 20,
     "seed": SEED,            # make YOLO’s internal RNG use the same seed
     "single_cls" : True,  # single class training
-    "name": "yolo-moe-augmented-v3"
+    "name": "yolo-final"
 }
 
 # 4) OOM‐backoff loop (optional)
