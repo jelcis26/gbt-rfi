@@ -1,5 +1,5 @@
-train: /datax/scratch/jliang/dataset_final/train
-val: /datax/scratch/jliang/dataset_final/val
+train: /datax/scratch/jliang/dataset_final_7/train
+val: /datax/scratch/jliang/dataset_final_7/val
 
 nc: 1
 names: ['hit']

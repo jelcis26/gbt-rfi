@@ -14,7 +14,7 @@ torch.cuda.manual_seed_all(SEED)
 # torch.backends.cudnn.benchmark = False
 
 # 2) Instantiate model once
-model = YOLO("yolo11n.pt")
+model = YOLO("yolov8n.pt")
 
 # 3) Base overrides (including seed)
 overrides = {
@@ -33,7 +33,7 @@ overrides = {
     "patience": 20,
     "seed": SEED,            # make YOLO’s internal RNG use the same seed
     "single_cls" : True,  # single class training
-    "name": "yolo-final"
+    "name": "yolo-final-v8",
 }
 
 # 4) OOM‐backoff loop (optional)
